@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora/Hauora-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora/Hauora-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora/Hauora-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Hauora';
+    src: url('../fonts/Hauora/Hauora-ExtraBold.ttf');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/webfonts/fa-solid-900.woff2');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/webfonts/fa-regular-400.woff2');
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/webfonts/fa-brands-400.woff2');
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/webfonts/fa-light-300.woff2');
+}
+
+.fa-solid {
+    font-family: 'FontAwesome';
+    font-weight: 900;
+}
+.fa-regular{
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+.fa-brands{
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+.fa-light{
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+.header__icon::before {
+    content: '\f04b';
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    transition: .4s;
+}
+.header__intro-btn:hover .header__icon::before {
+    color: #CD3939;
+}
+.header__icon{
+    transition: .4s;
+}
+.header__intro-btn:hover .header__icon{
+    transform: rotate(360deg);
+}
+.about__icon-world::before {
+    content: '\f57d';
+    font-style: normal;
+    font-size: 30px;
+    color: #FD5252;
+}
+.fa-film::before{
+    content: '\f008';
+    font-style: normal;
+    font-size: 30px;
+    color: #EC0000;
+}
+.fa-people-group::before{
+    content: '\e533';
+    font-style: normal;
+    font-size: 30px;
+    color: #FD5252;
+}
+.fa-twitch::before{
+    content: '\f1e8';
+    font-style: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.45);
+    transition: .4s;
+}
+.fa-telegram::before{
+    content: '\f2c6';
+    font-style: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.45);
+    transition: .4s;
+}
+.fa-square-twitter::before{
+    content: '\f081';
+    font-style: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.45);
+    transition: .4s;
+}
+.fa-plus::before{
+    content: '\2b';
+    font-style: normal;
+    font-size: 25px;
+    color: #CD3939;
+    transition: .4s;
+}
+.fa-plus.active::before{
+    content: 'x';
+}
+.fa-twitch:hover::before{
+    color: #FD5252;
+}
+.fa-telegram:hover::before{
+    color: #FD5252;
+}
+.fa-square-twitter:hover:before{
+    color: #FD5252;
+}

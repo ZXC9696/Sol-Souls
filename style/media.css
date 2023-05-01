@@ -1,0 +1,306 @@
+@media (max-width: 375px) {
+    .header .container {
+        justify-content: center;
+    }
+    .header__list{
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        background: rgba(46, 46, 46, 0.79);
+        z-index: 25;
+        backdrop-filter: blur(8px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        transition: .3s;
+        padding: 20px;
+    }
+    .header__table{
+        width: 345px;
+        height: 119px;
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .header__table-title{
+        line-height: 21px;
+        font-size: 13px;
+        width: 251px;
+        text-align: center;
+        padding: 11px 0 10px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .header__table-btn{
+        padding: 12px 23px;
+    }
+    .header__intro{
+        flex-direction: column;
+    }
+    .header__intro-title{
+        font-size: 40px;
+    }
+    .header__intro-img{
+        position: relative;
+        width: 540px;
+        height: 340px;
+        top: -30px;
+        left: -65px;
+    }
+    .header__intro-subtitle{
+        font-size: 15px;
+        line-height: 30px;
+        margin-top: -6px;
+    }
+    .header__intro-image{
+        width: 312px;
+        height: 218px;
+        top: 450px;
+        left: 45px;
+        z-index: 6;
+    }
+    .header__intro-text{
+        font-size: 12px;
+        margin-top: -15px;
+        z-index: 3;
+    }
+    .about__card{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .about__card-title{
+        font-size: 32px;
+        line-height: 114%;
+    }
+    .about__dops{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 73px;
+    }
+    .about__card-subtitle{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .about__card-info{
+        flex-wrap: wrap;
+        padding-bottom: 35px;
+    }
+    .header__menu{
+        display: block;
+        z-index: 30;
+    }
+    .header__list.active{
+        left: 0;
+    }
+    .header__link{
+        font-size: 20px;
+        color: white;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+        transition: .4s;
+    }
+    .quest__title{
+        font-size: 32px;
+        line-height: 147.5%;
+    }
+    .quest__gen{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .quest__intro-img{
+        width: 344px;
+        height: 472px;
+        background: url('../img/23.png');
+    }
+    .fellow__title{
+        font-size: 32px;
+        line-height: 134%;
+        text-align: center;
+    }
+    .fellow{
+        padding-bottom: 26px;
+    }
+    .desc .container {
+        width: 345px;
+        height: 914px; 
+        padding: 25px 18px 50px 20px;
+    }
+    .desc__title{
+        font-size: 32px;
+        line-height: 117.5%;
+    }
+    .desc__swiper-slide{
+        top: 262px;
+        left: 20px;
+        width: 306.05px;
+        height: 376px;
+        border-radius: 10.493px;
+        gap: 14px;
+    }
+    .desc__swiper-img{
+        width: 306.05px;
+        height: 289.43px;
+        border-radius: 10.493px;
+    }
+    .desc__subtitle{
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 17px;
+    }
+    .desc__data{
+        margin-top: 427px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 44px;
+    }
+    .desc__data-min{
+        font-size: 38px;
+        line-height: 26px;
+    }    
+    .desc__data-min span{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .desc__data-atr{
+        font-size: 38px;
+        line-height: 26px;
+    }
+    .phase1-img{
+        top: -124px;
+        left: 115px;
+    }
+    .desc__data-atr span{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .road__map-phase1{
+        margin-bottom: 100px;
+    }
+    .road__map-phase2 img{
+        top: -124px;
+        left: 115px;
+    }
+    .road__map-phase3{
+        margin-top: 134px;
+    }
+    .road__map-phase1::after{
+        width: 465px;
+        top: 227px;
+        left: -250px;
+    }
+    .road__map-phase3 img{
+        top: -124px;
+        left: 115px;
+    }
+    .road__map-phase2::before{
+        width: 325px;
+        top: 148px;
+        left: -178px;
+    }
+    .road__map-phase3::before{
+        width: 325px;
+        top: 155px;
+        left: -178px;
+    }
+    .footer__text::before{
+        width: 323px;
+    }
+    .desc__data-gen2{
+        display: flex;
+        text-align: center;
+    }
+    .desc__data-comb span{
+        font-size: 14px;
+        line-height: 26px;
+        width: 153.27px;
+        margin-left: -13px;
+    }
+    .desc__data-price{
+        font-size: 38px;
+        line-height: 26px;  
+        margin-left: -25px;
+    }
+    .desc__data-price span{
+        margin-left: -5px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .desc__data-comb{
+        font-size: 38px;
+        line-height: 26px;
+        margin-left: 25px;
+    }
+    .fusion__title{
+        font-size: 32px;
+        line-height: 117.5%;
+    }
+    .fusion .container{
+        flex-direction: column;
+    }
+    .fusion__text{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .fusion{
+        padding-bottom: 44px;
+    }
+    .map__box{
+        flex-direction: column;
+        padding: 41px 8px 39px 30px;
+        gap: 0;
+    }
+    .maps__title{     
+        margin-left: -25px;
+        font-size: 32px;
+        line-height: 117.5%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 147px;
+    }
+    .road__map-box{
+        flex-direction: column;
+        gap: 49px;
+    }
+    .phase__sup1{
+        width: 296px;
+    }
+    .phase__sup3{
+        width: 307px;
+    }
+    .phase__sup4{
+        width: 265px;
+    }
+    .road__map-sup3{
+        width: 236px;   
+    }
+    .map__sup1{
+        width: 301px;
+    }
+    .map__sup3{
+        width: 296px;
+    }
+    .map__sup4{
+        width: 287px;
+    }
+    .footer .container{
+        flex-direction: column;
+        padding: 0 24px 0 28px;
+    }
+    .swiper-text{
+        margin-top: 5px;
+    }
+    .footer__about-title{
+        margin-top: 35px;
+    }
+    .footer__resources-title{
+        margin-top: 35px;
+    }
+    .footer__social-title{
+        margin-top: 35px;
+    }
+}
